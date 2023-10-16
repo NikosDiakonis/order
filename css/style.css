@@ -3,7 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #ffaa49;
   overflow-x: hidden;
 }
 
@@ -52,7 +52,7 @@ h2 {
 .heading_container h2 {
   position: relative;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -102,6 +102,7 @@ a:focus {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
 
 .bg-box {
   position: absolute;
@@ -166,7 +167,7 @@ a:focus {
   padding-left: 18%;
 }
 
-.custom_nav-container .navbar-nav .nav-item .nav-link {
+/* .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
   color: #ffffff;
   text-align: center;
@@ -174,36 +175,37 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+} */
 
-.custom_nav-container .navbar-nav .nav-item:hover .nav-link,
+/* .custom_nav-container .navbar-nav .nav-item:hover .nav-link,
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #ffbe33;
-}
+} */
 
-.custom_nav-container .nav_search-btn {
+/* .custom_nav-container .nav_search-btn {
   width: auto;
   height: auto;
   padding: 0;
   border: none;
   color: #ffffff;
   margin: 0 10px;
-}
+} */
 
-.custom_nav-container .nav_search-btn:hover {
+/* .custom_nav-container .nav_search-btn:hover {
   color: #ffbe33;
-}
+} */
 
-.user_option {
+/* .user_option {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
+} */
 
-.user_option a {
+.
+/* user_option a {
   margin: 0 10px;
 }
 
@@ -251,21 +253,21 @@ a:focus {
 
 .user_option .order_online:hover {
   background-color: #e69c00;
-}
+} */
 
-.custom_nav-container .navbar-toggler {
+/* .custom_nav-container .navbar-toggler {
   outline: none;
 }
-
-.custom_nav-container .navbar-toggler {
+ */
+/* .custom_nav-container .navbar-toggler {
   padding: 0;
   width: 37px;
   height: 42px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+} */
 
-.custom_nav-container .navbar-toggler span {
+/* .custom_nav-container .navbar-toggler span {
   display: block;
   width: 35px;
   height: 4px;
@@ -277,7 +279,7 @@ a:focus {
   border-radius: 5px;
   transition: all 0.3s;
 }
-
+ */
 .custom_nav-container .navbar-toggler span::before,
 .custom_nav-container .navbar-toggler span::after {
   content: "";
@@ -285,7 +287,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #981616;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -405,7 +407,7 @@ a:focus {
   padding-top: 45px;
 }
 
-.offer_section .box {
+/* .offer_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,9 +417,9 @@ a:focus {
   margin-top: 45px;
   border-radius: 5px;
   padding: 20px 15px;
-  background-color: #222831;
+  background-color: #e80d0d;
   color: #ffffff;
-}
+} */
 
 .offer_section .box .img-box {
   width: 175px;
@@ -502,9 +504,15 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #222831;
+  background-image: url('https://img.freepik.com/free-photo/dark-wood-wall_1194-7058.jpg?w=996&t=st=1697462511~exp=1697463111~hmac=5990cddfc269309c8e8008706c76fd63b2d3e1e13ba436373b65dfc2eecb17b1');
+  background-size: cover;
+  /* Προσαρμογή της εικόνας για να καλύπτει το στοιχείο */
+  background-repeat: no-repeat;
+  /* Αποτροπή επανάληψης της εικόνας */
   color: #ffffff;
+  /* Χρώμα κειμένου πάνω στην εικόνα */
 }
+
 
 .food_section .box {
   position: relative;
@@ -514,7 +522,11 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background-image: url('https://img.freepik.com/free-photo/dark-wood-wall_1194-7058.jpg?w=996&t=st=1697462511~exp=1697463111~hmac=5990cddfc269309c8e8008706c76fd63b2d3e1e13ba436373b65dfc2eecb17b1');
+  background-size: cover;
+  /* Προσαρμογή της εικόνας για να καλύπτει το στοιχείο */
+  background-repeat: no-repeat;
+  /* Αποτροπή επανάληψης της εικόνας */
 }
 
 .food_section .box .img-box {
@@ -904,8 +916,11 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
-  color: #ffffff;
+  background-image: url('https://img.freepik.com/free-photo/dark-wood-wall_1194-7058.jpg?w=996&t=st=1697462511~exp=1697463111~hmac=5990cddfc269309c8e8008706c76fd63b2d3e1e13ba436373b65dfc2eecb17b1');
+  background-size: cover;
+  /* Προσαρμογή της εικόνας για να καλύπτει το στοιχείο */
+  background-repeat: no-repeat;
+  /* Αποτροπή επανάληψης της εικόνας */
   padding: 75px 0 40px 0;
   text-align: center;
 }
