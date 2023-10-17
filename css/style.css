@@ -505,7 +505,8 @@ user_option a {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #735F32;
+  background-image: url('https://images.pexels.com/photos/1250283/pexels-photo-1250283.jpeg');
+  background-size: cover;
   /* Προσαρμογή της εικόνας για να καλύπτει το στοιχείο */
   background-repeat: no-repeat;
   /* Αποτροπή επανάληψης της εικόνας */
