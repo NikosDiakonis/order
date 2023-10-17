@@ -510,17 +510,20 @@ user_option a {
   /* Προσαρμογή της εικόνας για να καλύπτει το στοιχείο */
   background-repeat: no-repeat;
   /* Αποτροπή επανάληψης της εικόνας */
-  color: #C69749;
+  color: #f8b239;
   /* Χρώμα κειμένου πάνω στην εικόνα */
 }
 
+h6 {
+  font-weight: bold;
+}
 
 .food_section .box {
   position: relative;
   margin-top: 25px;
   background-color: #ffffff;
   border-radius: 10px;
-  color: #C69749;
+  color: #f8b239;
   border-radius: 15px;
   overflow: hidden;
   background-image: url('https://images.pexels.com/photos/1250283/pexels-photo-1250283.jpeg');
